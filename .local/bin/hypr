@@ -1,0 +1,23 @@
+#!/bin/bash
+
+cd ~
+
+# Log WLR errors and logs to the hyprland log. Recommended
+export HYPRLAND_LOG_WLR=1
+
+export MOZ_ENABLE_WAYLAND=1
+
+export _JAVA_AWT_WM_NONREPARENTING=1
+export XCURSOR_SIZE=24
+
+export XDG_CURRENT_DESKTOP=Unity
+
+# exec-once swayosd
+# exec-once polkit-kde-agent
+# exec-once /home/stalb/.local/bin/xdg-d
+# exec-once /home/stalb/.local/bin/sww-init
+
+# exec swayosd &
+# exec swww init
+
+exec Hyprland

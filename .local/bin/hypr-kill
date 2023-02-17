@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+swww kill
+
+hyprctl dispatch exit
