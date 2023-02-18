@@ -1,0 +1,36 @@
+{
+    "label" : "suspend",
+    "action" : "systemctl suspend",
+    "text" : "S[u]Spend",
+    "keybind" : "u"
+}
+{
+    "label" : "reboot",
+    "action" : "systemctl reboot",
+    "text" : "[R]eboot",
+    "keybind" : "r"
+}
+{
+    "label" : "hibernate",
+    "action" : "systemctl hibernate",
+    "text" : "[H]ibernate",
+    "keybind" : "h"
+}
+{
+    "label" : "shutdown",
+    "action" : "systemctl poweroff",
+    "text" : "[S]hutdown",
+    "keybind" : "s"
+}
+{
+    "label" : "lock",
+    "action" : "swaylock --screenshots --effect-blur 7x5 --clock --indicator",
+    "text" : "[L]ock",
+    "keybind" : "l"
+}
+{
+    "label" : "lock",
+    "action" : "swaylock --screenshots --effect-blur 7x5 --clock --indicator",
+    "text" : "[D]ave",
+    "keybind" : "d"
+}
