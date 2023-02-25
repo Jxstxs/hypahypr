@@ -54,7 +54,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: VictorMono NF
+    family: VictorMono Nerd Font Mono
   #size: 11.0
   #offset:
   #  x: 0
