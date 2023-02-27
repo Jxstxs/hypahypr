@@ -27,3 +27,6 @@ repos
 .wakatime.bdb
 .wakatime.cfg
 .config/discord
+.config/libreoffice
+.config/onlyoffice
+.lazarus
