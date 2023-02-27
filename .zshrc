@@ -12,7 +12,7 @@ export LSHR=$LOCAL/share
 export LLIB=$LOCAL/lib
 
 # ALIASES
-alias exs="exa -la"
+alias exs="exa -la --git"
 alias pac="sudo pacman -Sy "
 alias pas="sudo pacman -Sy && pacman -Ss"
 alias upt="sudo pacman -Syyu"
